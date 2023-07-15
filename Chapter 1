@@ -1,0 +1,76 @@
+1. How would you define machine learning?
+	Machine learning is the field of study that gives the computers the ability to learn without being
+	explicitly programmed.
+
+2. Can you name four types of applications where it shines?
+	a. Anomaly detection
+	b. Speech recognition
+	c. Analyzing images
+	d. Recommender systems 
+	e. Detecting brain tumors
+	f. Predicting company's revenue
+	
+3. What is a labeled training set?
+	A training set in which the 'right answers' called labels are provided with the examples. For example,
+	feeding the model with a dataset that contains millions of emails. Each email is labeled
+	either spam or not. This type of training sets is used in supervised learning. 
+	
+4. What are the two most common supervised tasks?
+	a. Regression
+	b. Classification
+	
+5. Can you name four common unsupervised tasks?
+	a. Clustering
+	b. Dimensionality reduction
+	c. Anomaly detection
+	d. Association rule learning
+	
+6. What type of algorithm would you use to allow a robot to walk in various unknown terrains?
+	Reinforcement learning will perform best Since this is the type of problems that reinforcement learning
+	tackles. 
+	
+7. What type of algorithm would you use to segment your customers into multiple groups?
+	Clustering algorithms can be used if you don't know how to define your group. If you have an idea
+	about how you want to define your groups, you can use a classification system (supervised learning)
+	and feed it with many examples of each group.
+	
+8. Would you frame the problem of spam detection as a supervised learning problem or an unsupervised learning problem?
+	It is a task of supervised learning.
+	
+9. What is an online learning system?
+	It is a type of learning systems in which you can train the system incrementally by feeding it data
+	instances sequentially in small groups. This way, the system can learn from the new data on the fly. Online
+	learning is useful when you need to partition a large data set that can't fit the into 
+	the machine's main memory into smaller batches. The algorithm loads part of the data, trains on it, then 
+	repeats until the entire data set is exhausted.
+	
+10. What is out-of-core learning?
+	It is when you divide a large data set that can't fit into one machine's main memory into smaller sets and make
+	the out-of-core learning algorithm learn from this mini-batches.
+	
+11. What type of algorithm relies on a similarity measure to make predictions?
+	Instance based learning. The system learns the examples by heart then generalizes to new cases by using a 
+	similarity measure to compare them to the learned examples. 
+	
+12. What is the difference between a model parameter and a model hyperparameter?
+	Model parameters are the parameters of a model (i.e. linear regression model) that will make the model
+	best fit the training data and make good predictions on the new data. For example, the slope and the 
+	intercept of a linear model.
+	Hyperparameters are the parameters that are used to control the constraints on a model. In other words, it
+	is the amount of regulariztion to be applied. It is a parameter of the learning algorithm itself not the model.
+	It is set prior to training and remains constant during the training.
+	
+13. What do model-based algorithms search for? What is the most common strategy they use to succeed? How do they make predictions?
+		
+	
+	
+
+14. Can you name four of the main challenges in machine learning?
+15. If your model performs great on the training data but generalizes poorly to new
+instances, what is happening? Can you name three possible solutions?
+16. What is a test set, and why would you want to use it?
+17. What is the purpose of a validation set?
+18. What is the train-dev set, when do you need it, and how do you use it?
+19. What can go wrong if you tune hyperparameters using the test set?
+
+	  
