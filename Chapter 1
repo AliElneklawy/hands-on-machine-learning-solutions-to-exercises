@@ -51,6 +51,7 @@
 11. What type of algorithm relies on a similarity measure to make predictions?
 	Instance based learning. The system learns the examples by heart then generalizes to new cases by using a 
 	similarity measure to compare them to the learned examples. 
+
 	
 12. What is the difference between a model parameter and a model hyperparameter?
 	Model parameters are the parameters of a model (i.e. linear regression model) that will make the model
@@ -59,15 +60,36 @@
 	Hyperparameters are the parameters that are used to control the constraints on a model. In other words, it
 	is the amount of regulariztion to be applied. It is a parameter of the learning algorithm itself not the model.
 	It is set prior to training and remains constant during the training.
+
 	
 13. What do model-based algorithms search for? What is the most common strategy they use to succeed? How do they make predictions?
-		
-	
+	Model-based algorithms search for the optimal values for the parameters so that the model will 
+	gerneralize well to new instances. They use a techniques to minimize the cost functions that measure
+	how bad the system is at making predictions on new instances. To make predictions, the new
+	instances are fed to the prediction function using the optimal parameter values.
 	
 
 14. Can you name four of the main challenges in machine learning?
-15. If your model performs great on the training data but generalizes poorly to new
-instances, what is happening? Can you name three possible solutions?
+	a. Overfitting
+	b. Underfitting
+	c. Irrelevant features
+	d. Poor data quality
+	e. Insufficient quantity of data
+	f. Non-representative training data
+	
+	
+15. If your model performs great on the training data but generalizes poorly to new instances, 
+what is happening? Can you name three possible solutions?
+	If the model performs well on the training data but generalizes poorly this means that
+	overfitting has occurred. To solve this:
+	a. Constraining the model to make it simpler through regularization.
+	b. Reduce the noise in the training data
+	c. Gather more training data
+	
+
+
+
+
 16. What is a test set, and why would you want to use it?
 17. What is the purpose of a validation set?
 18. What is the train-dev set, when do you need it, and how do you use it?
