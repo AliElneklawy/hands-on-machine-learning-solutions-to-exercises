@@ -85,14 +85,41 @@ what is happening? Can you name three possible solutions?
 	a. Constraining the model to make it simpler through regularization.
 	b. Reduce the noise in the training data
 	c. Gather more training data
+
+
+16. What is a test set, and why would you want to use it?
+	A test set is part of the overall data set. The model is tested on the test set. By evaluating the 
+	model on the test set, you get an estimate of the generalization error telling you how well your
+	model will perform on instances it has never seen before.
+	
+
+17. What is the purpose of a validation set?
+	It is used to evaluate several candidate models and select the best one. You train multiple 
+	models on the reduced training set, and you select the model the performs best on the
+	validation set. You then train the best model on the full data set.
+
+
+18. What is the train-dev set, when do you need it, and how do you use it?
+	If you observe that the model performance on the validation set is disappointing, you will
+	not know whether this occurred because of data mismatch or the model has overfit the training
+	data. One way to solve this is to hold out some of the training examples, called train-dev set,
+	and train the model on the training set then evaluate it on the train-dev set. If it performs poorly
+	, then it must have overfit the training data, so you should try to simplify the model. If it peroforms
+	well on the train-dev set, then you can evaluate it on the validation set. If it performs poorly, then
+	the problem must be with data mismatch.
+
+
+19. What can go wrong if you tune hyperparameters using the test set?
+	It will cause the problem of overfitting to the test data.
+
 	
 
 
 
 
-16. What is a test set, and why would you want to use it?
-17. What is the purpose of a validation set?
-18. What is the train-dev set, when do you need it, and how do you use it?
-19. What can go wrong if you tune hyperparameters using the test set?
+
+
+
+
 
 	  
