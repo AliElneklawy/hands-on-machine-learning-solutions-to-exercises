@@ -111,15 +111,4 @@ what is happening? Can you name three possible solutions?
 
 19. What can go wrong if you tune hyperparameters using the test set?
 	It will cause the problem of overfitting to the test data.
-
-	
-
-
-
-
-
-
-
-
-
 	  
